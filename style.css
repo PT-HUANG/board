@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	background: #f2efef;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.warning {
+	background: #ffc4c6;
+	color: #a20606;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.board {
+	position: relative;
+	background: white;
+	width: 100%;
+	max-width: 700px;
+	margin: 0px auto;
+	border-radius: 7px;
+	box-shadow: 1px 1px 3px #92828291;
+	padding-left:20px;
+	padding-right:20px;
+	padding-top:10px;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.users_btn {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+}
+
+.users_btn text {
+	margin-right: 20px;
+}
+
+.users_btn a {
+	background: white;
+	padding: 12px 30px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+	border-radius: 5px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid #c2dffb;
+}
+
+.users_btn a:hover {
+	background-color: #00d0ffba;
+	cursor: pointer;
+}
+
+.content_and_submit {
+  display: flex;
+  flex-direction: row;
+}
+
+.board__nickname, .board__username, .board__password {
+	padding: 20px 0px;
+}
+
+.board__nickname input, .board__new-comment-form textarea, 
+.board__submit-btn input, .board__username input, .board__password input {
+	border: 2px solid #c2dffb;
+	padding: 5px;
+}
+
+.board__new-comment-form textarea {
+	width: 500px;
+	padding: 10px;
+}
+
+.board__submit-btn {
+	margin-left: 20px;
+	width: 100px;
+}
+
+.board__submit-btn input {
+	background: white;
+	padding: 10px 30px;
+	margin-bottom: 10px;
+	transition: 0.5s;
+	border-radius: 5px;
+}
+
+.board__submit-btn input:hover {
+	background-color: #00d0ffba;
+	cursor: pointer;
+}
+
+.line {
+	color: #bfbfbf;
+}
+
+.card {
+	display: flex;
+}
+
+.card__icon {
+	background-color: #e4f0fb;
+	width: 50px;
+	height: 50px;
+	min-width: 50px;
+	border-radius: 50%;
+
+}
+
+.card__info {
+	padding: 0px 10px;
+}
+
+.card__info__author {
+	color: #5c9edc;
+	font-weight: bold;
+}
+
+.card__info__time {
+	color: #a5a5a5;
+	margin-left: 15px;
+}
+
+.card__info__content {
+	padding-top: 10px;
+	margin-bottom: 30px;
+	max-width: 100%;
+	word-break: break-all;
+	white-space: pre-line;
+}
+
+.comment_info {
+	text-align: center;
+}
+
+.paginator {
+	display: flex;
+	margin-top: 15px;
+	justify-content: center;
+}
+
+.paginator a {
+	background: white;
+	padding: 12px 30px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+	transition: 0.5s;
+	border-radius: 5px;
+	text-decoration: none;
+	color: black;
+	border: 2px solid #c2dffb;
+}
+
+.paginator a:hover {
+	background-color: #00d0ffba;
+	cursor: pointer;
+}
